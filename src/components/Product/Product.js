@@ -3,7 +3,8 @@ import React from 'react';
 function Product (){
     return (
         <div>
-            Product
+            <p>Product</p>
+            <input />
         </div>
     )
 }

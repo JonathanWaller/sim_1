@@ -6,12 +6,25 @@ import Header from './components/Header/Header';
 import Product from './components/Product/Product';
 
 class App extends Component {
+  constructor(){
+    super();
+    this.state={
+      inventory: []
+    }
+  }
+  
+  
+  
+  
+  
   render() {
     return (
       <div className="App">
+       <Header/>
+       <div className='main-field'>
        <Dashboard />
        <Form />
-       <Header/>
+       </div>
       </div>
     );
   }
